@@ -5,6 +5,15 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Show do Milhao </name>
   <description>Projeto Show do Milhao com Java FX</description>
+  
+  <!-- Inicio de declaracao de dependencias-->
+  <dependencies>
+	  <dependency>
+		  <groupId>org.openjfx</groupId>
+		  <artifactId>javafx-fxml</artifactId>
+		  <version>17-ea+17</version>
+	  </dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
