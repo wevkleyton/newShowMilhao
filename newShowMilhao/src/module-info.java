@@ -1,5 +1,5 @@
 module newShowMilhao {
-	requires javafx.controls;
+	exports application;
 	
-	opens application to javafx.graphics, javafx.fxml;
+	requires transitive javafx.controls;
 }
